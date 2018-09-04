@@ -7,6 +7,7 @@ class Home extends Component {
     this.state = {}
   }
   render() {
+    console.log(process.env)
     return (
       <div className="main Home">
         <MyMenu />
